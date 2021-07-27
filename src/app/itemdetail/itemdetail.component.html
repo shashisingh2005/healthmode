@@ -29,14 +29,15 @@
       <div id="benefitlists" class="row" *ngIf="healthmode">
         <div class="col-12">
           <h3>Health Benefits:</h3>
+          <div *ngIf="healthcondition && grocery.id=='9'">
+            <ul class="list-group">
+              <li class="text-green">It lowers the blood pressures.</li>
+            </ul>
+          </div>
+
           <div *ngFor="let benefits of grocery.benefits">
             <ul class="list-group">
               <li>{{benefits}}</li>
-            </ul>
-          </div>
-          <div>
-            <ul class="list-group">
-              <li *ngIf="healthcondition" class="text-green">It lowers the blood pressures.</li>
             </ul>
           </div>
 
@@ -48,7 +49,8 @@
             <button type="button" class="btn btn-outline-success bg text-white" (click)="myfunction()">Add to cart</button>
           </div>
         </div>
-      
-    </div>
+      </div>
+      <div class="row mt-3 ms-3 me-3" *ngIf="healthmode && healthcondition && grocery.id=='9'"><p class="text-green col-12">Note: You have selected Hypertension in your health condition so this extra benefit is showing for you.</p>
+      </div>
   </div>
 </div>

@@ -7,12 +7,17 @@
     font-weight: bold;
     color: #ffffff;
     border-radius: 5px;
+    border: 0px;
 }
 .health {
-    width: 70%;
-    border: 0px;
+    width: 90%;
 }
 
 .paynow {
     width: 50%;
 }
+
+.text-green {
+    color:#42b736 !important;
+    text-decoration: none;
+  }

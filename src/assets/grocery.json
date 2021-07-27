@@ -6,7 +6,7 @@
         "desc": "Great Value Pure Granulated Sugar, 10 lb",
         "img": "assets/image/sugar.jpeg",
         "price": "$23.00",
-        "cat": "sweetner",
+        "cat": "sweetener",
         "benefits": [
             "Sugar Can Provide an Immediate Burst of Energy",
             "Sugar Helps You Store Energy for Later",
@@ -22,7 +22,7 @@
         "desc": "Jiva Organics Jaggery Powder, 400 gams",
         "img": "assets/image/jaggery.jpeg",
         "price": "$10.98",
-        "cat": "sweetner",
+        "cat": "sweetener",
         "benefits": [
             "Cleanses the whole body",
             "Improves digestion",
@@ -38,7 +38,7 @@
         "desc": "Great Value Clover Raw Honey, 32 oz",
         "img": "assets/image/honey.jpeg",
         "price": "$12.88",
-        "cat": "sweetner",
+        "cat": "sweetener",
         "benefits": [
             "Honey Contains Nutrients",
             "Honey Is Rich in Antioxidants",
@@ -54,7 +54,7 @@
         "desc": "Maple Grove Farms® 100% Pure Maple Syrup 12.5 fl. oz. Bottle",
         "img": "assets/image/maple.jpeg",
         "price": "$13.43",
-        "cat": "sweetner",
+        "cat": "sweetener",
         "benefits": [
             "Contains Numerous Antioxidants",
             "Gets a Lower Score on the Glycemic Index",

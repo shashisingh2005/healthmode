@@ -32,7 +32,7 @@
             </div>
           
             <div class="row">
-                <div class="m-t-sm"><a href="#" class="text-muted"><i class="fa fa-trash"></i>Remove item</a>
+                <div class="m-t-sm"><a href="#" class="text-muted text-green"><i class="fa fa-trash"></i>Remove item</a>
                 </div>
             </div>
 
@@ -40,19 +40,21 @@
     </div>
 
     <div class="row">
-        <div class="col-md-12">
-            <br>
+        <div class="col-md-12 mt-2">
             <p class="text-center m-0 text-black">Your total bill:</p>
-            <h5 class="text-center text-black">$30.00</h5>
+            <h5 class="text-center text-black">$32.88</h5>
         </div>
     </div>
     
     <div class="row" *ngIf="healthmode">
-        <div ><button class="col-md-18 custombtn health d-grid gap-2 " (click)="showhideUtility()">50 health coins  </button> </div>
+        <div ><button class="col-12 custombtn health d-grid gap-2 " (click)="showhideUtility()">Redeem your 50 health coins</button> </div>
     </div>
     
     <app-newcomp *ngIf="visible"></app-newcomp> 
+    <div class="row mt-3" *ngIf="payNowClicked">
+        <div class="col-md-12 m-2"><h5 class="text-center">Your order is placed successfully.</h5></div>
+    </div>
     <div class="row mt-3">
-        <div class="col-md-12 custombtn paynow mb-5">Pay Now</div>
+        <button class="col-md-12 custombtn paynow mb-5" (click)="paynow()">Pay Now</button>
     </div>
 </div>
