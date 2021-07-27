@@ -1,0 +1,92 @@
+<div class="container-fluid">
+    <form class="requires-validation" validate>
+    <div class="row">
+        <div class="col-12">
+            <p class="m-3">Fill in the data below.</p>
+        </div>
+    </div>
+    <div class="row m-3">
+        <div class="col-md-12">
+            <input class="form-control" type="text" name="weight" placeholder="Weight" required>
+            <div class="valid-feedback">Weight field is valid!</div>
+            <div class="invalid-feedback">Weight field cannot be blank!</div>
+        </div>
+    </div>
+    <div class="row m-3">
+        <div class="col-md-12">
+            <input class="form-control" type="text" name="height" placeholder="Height" required>
+            <div class="valid-feedback">Height field is valid!</div>
+            <div class="invalid-feedback">Height field cannot be blank!</div>
+        </div>
+    </div>
+    <div class="row m-3">
+        <div class="col-md-12">
+            <input class="form-control" type="number" name="age" placeholder="Age" required>
+            <div class="valid-feedback">Age field is valid!</div>
+            <div class="invalid-feedback">Age field cannot be blank!</div>
+        </div>
+    </div>
+    <div class="row m-3">
+        <div class="col-md-12">
+            <textarea class="form-control" name="allergies" style="width: 80% ; height:30px;" placeholder="Any allergies" required></textarea>
+            <div class="valid-feedback">Allergies field is valid!</div>
+            <div class="invalid-feedback">Allergies field cannot be blank!</div>
+        </div>
+    </div>
+
+    <div class="row m-3">
+        <div class="col-md-12 mt-3">
+            <label class="mb-3 mr-1" for="gender">Gender: </label>
+            <input type="radio" class="btn-check" name="gender" id="male" autocomplete="off" required>
+            <label class="btn btn-sm btn-outline-secondary" for="male" style="margin-left: 10px;">Male</label>
+            <input type="radio" class="btn-check" name="gender" id="female" autocomplete="off" required>
+            <label class="btn btn-sm btn-outline-secondary" for="female"  style="margin-left: 10px;">Female</label>
+            <div class="valid-feedback mv-up">You selected a gender!</div>
+            <div class="invalid-feedback mv-up">Please select a gender!</div>
+        </div>
+    </div>
+
+
+    <div class="row m-3">
+        <div class="col-md-12"><h5>Health Condition</h5></div>
+    </div>
+
+    <div class="row ms-3 me-3">
+        <div class="col-md-12">
+            <input type="checkbox" class="form-check-input" name="hypertension" id="hypertension" autocomplete="off"> 
+            <label class="mb-2 ms-2">Hypertension</label>
+        </div>
+    </div>
+    <div class="row ms-3 me-3">
+        <div class="col-md-12">
+            <input type="checkbox" class="form-check-input" name="obesity" id="obesity" autocomplete="off"> 
+            <label class="mb-2 ms-2">Obesity</label>
+        </div>
+    </div>
+    <div class="row ms-3 me-3">
+        <div class="col-md-12">
+            <input type="checkbox" class="form-check-input" name="thyroid" id="thyroid" autocomplete="off"> 
+            <label class="mb-2 ms-2">Thyroid</label>
+        </div>
+    </div>
+    <div class="row ms-3 me-3">
+        <div class="col-md-12">
+            <input type="checkbox" class="form-check-input" name="hbGlucose" id="hbGlucose" autocomplete="off">
+            <label class="mb-2 ms-2">High Blood Glucose</label>
+        </div>
+    </div>
+
+    <div class="row m-3">
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label">I confirm that all data are correct</label>
+            <div class="invalid-feedback">Please confirm that the entered data are all correct!</div>
+        </div>
+    </div>
+    <div class="row m-3">
+        <div class="form-button mt-3 d-md-flex justify-content-md-center">
+            <button id="submitBtn" type="submit" (click)="submitForm()" class="btn btn-primary">{{btnText}}</button>
+        </div>
+    </div>
+    </form>
+</div>

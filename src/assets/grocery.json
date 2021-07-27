@@ -1,0 +1,198 @@
+[
+    {
+        "name": "Sugar",
+        "id": "1",
+        "type": "4",
+        "desc": "Great Value Pure Granulated Sugar, 10 lb",
+        "img": "assets/image/sugar.jpeg",
+        "price": "$23.00",
+        "cat": "sweetner",
+        "benefits": [
+            "Sugar Can Provide an Immediate Burst of Energy",
+            "Sugar Helps You Store Energy for Later",
+            "Sugar Can Provide an Instant Mood Boost",
+            "Naturally Sweet Chocolate Can Improve Thinking Skills",
+            "Natural Sugar Sources Come With Added Nutrients"
+        ]
+    },
+    {
+        "name": "Jaggery",
+        "id": "2",
+        "type": "2",
+        "desc": "Jiva Organics Jaggery Powder, 400 gams",
+        "img": "assets/image/jaggery.jpeg",
+        "price": "$10.98",
+        "cat": "sweetner",
+        "benefits": [
+            "Cleanses the whole body",
+            "Improves digestion",
+            "Prevents anemia",
+            "Improves immune function",
+            "Aids glucose control and weight loss"
+        ]
+    },
+    {
+        "name": "Honey",
+        "id": "3",
+        "type": "1",
+        "desc": "Great Value Clover Raw Honey, 32 oz",
+        "img": "assets/image/honey.jpeg",
+        "price": "$12.88",
+        "cat": "sweetner",
+        "benefits": [
+            "Honey Contains Nutrients",
+            "Honey Is Rich in Antioxidants",
+            "The Antioxidants in It Can Help Lower Blood Pressure",
+            "Honey Also Helps Improve Cholesterol",
+            "Honey Can Lower Triglycerides"
+        ]
+    },
+    {
+        "name": "Maple syrup",
+        "id": "4",
+        "type": "3",
+        "desc": "Maple Grove Farms® 100% Pure Maple Syrup 12.5 fl. oz. Bottle",
+        "img": "assets/image/maple.jpeg",
+        "price": "$13.43",
+        "cat": "sweetner",
+        "benefits": [
+            "Contains Numerous Antioxidants",
+            "Gets a Lower Score on the Glycemic Index",
+            "Fights Inflammatory Diseases",
+            "May Help Protect Against Cancer",
+            "Helps Protect Skin Health",
+            "Alternative To Sugar For Improved Digestion"
+        ]
+    },
+    {
+        "name": "Coconut oil",
+        "id": "5",
+        "type": "3",
+        "desc": "Great Value Organic Unrefined Virgin Coconut Oil, 14 fl oz",
+        "img": "assets/image/coconutoil.jpeg",
+        "price": "$4.95",
+        "cat": "oil",
+        "benefits": [
+            "Contains healthy fatty acids",
+            "Coconut oil boost heart health",
+            "Coconut oil encourage fat burning",
+            "Coconut oil have antimicrobial effects",
+            "Coconut oil reduce hunger",
+            "Coconut oil reduce seizures",
+            "Coconut oil raise HDL (good) cholesterol",
+            "Coconut oil protect your skin, hair, and teeth"
+        ]
+    },
+    {
+        "name": "Olive oil",
+        "id": "6",
+        "type": "1",
+        "desc": "Bertolli Extra-Virgin Olive Oil, Original, 16.9 fl oz",
+        "img": "assets/image/oliveoil.jpeg",
+        "price": "$10.00",
+        "cat": "oil",
+        "benefits": [
+            "Olive Oil Is Rich in Healthy Monounsaturated Fats",
+            "Olive Oil Contains Large Amounts of Antioxidants",
+            "Olive Oil Has Strong Anti-Inflammatory Properties",
+            "Olive Oil Help Prevent Strokes",
+            "Olive Oil Is Protective Against Heart Disease",
+            "Olive Oil Is Not Associated With Weight Gain and Obesity"
+        ]
+    },
+    {
+        "name": "Avacado oil",
+        "id": "7",
+        "type": "2",
+        "desc": "Great Value Avocado Oil, 25.5 fl oz",
+        "img": "assets/image/Avacado.jpeg",
+        "price": "$7.85",
+        "cat": "oil",
+        "benefits": [
+            "Rich in Oleic Acid, a Very Healthy Fat",
+            "Reduces Cholesterol and Improves Heart Health",
+            "High in Lutein, an Antioxidant That has Benefits for The Eyes",
+            "Enhances the Absorption of Important Nutrients",
+            "May Reduce Symptoms of Arthritis",
+            "May Help Prevent Gum Disease"
+            
+        ]
+    },
+    {
+        "name": "Corn oil",
+        "id": "8",
+        "type": "4",
+        "desc": "Mazola Corn Oil, 40 Fl Oz",
+        "img": "assets/image/corn.jpeg",
+        "price": "$5.66",
+        "cat": "oil",
+        "benefits": [
+            "Balance Cholesterol Levels",
+            "Reduce Inflammation",
+            "Improve Vision Health",
+            "Prevent Chronic Diseases",
+            "Reduce Allergies"
+        ]
+    },
+    {
+        "name": "Plain salt",
+        "id": "9",
+        "type": "4",
+        "desc": " Great Value Plain Salt, 26 oz",
+        "img": "assets/image/salt.jpeg",
+        "price": "$0.40",
+        "cat": "salt",
+        "benefits": [
+            "Helps Thyroid Function Properly. Your thyroid plays an important role in metabolism",
+"Keeps the Body Hydrated",
+"Prevents Low Blood Pressure",
+"Improves Symptoms of Cystic Fibrosis"
+        ]
+    },
+    {
+        "name": "Iodized salt",
+        "id": "9",
+        "type": "2",
+        "desc": "Morton Salt, Iodized, 26 Ounce",
+        "img": "assets/image/isalt.jpeg",
+        "price": "$13.00",
+        "cat": "salt",
+        "benefits": [
+            "Iodized salt helps create the hormones that regulate heart rate and blood pressure",
+            "It helps to burn extra fat deposits",
+            "Salt promotes healthy hydration levels",
+            "Creates a balance of electrolytes"
+        ]
+    },
+    {
+        "name": "Pink salt",
+        "id": "9",
+        "type": "1",
+        "desc": "Morton Himalayan Pink Salt, Coarse for Grilling, Seasoning",
+        "img": "assets/image/psalt.jpeg",
+        "price": "$10.00",
+        "cat": "salt",
+        "benefits": [
+            "Improve respiratory diseases",
+"Balance your body's pH",
+"Reduce signs of aging",
+"Improve sleep quality",
+"Regulate blood sugar",
+"Increase libido"        ]
+    },
+    {
+        "name": "Sea salt",
+        "id": "9",
+        "type": "3",
+        "desc": "Pure Flaky Sea Salt",
+        "img": "assets/image/ssalt.png",
+        "price": "$7.12",
+        "cat": "salt",
+        "benefits": [
+            "Keeps you hydrated",
+            "Reduces fluid retention",
+            "A great source of minerals",
+            "Balances electrolytes"
+        ]
+    }
+]

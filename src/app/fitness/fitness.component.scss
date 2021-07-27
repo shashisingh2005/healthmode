@@ -1,0 +1,16 @@
+.circle{
+    background: #42a736;
+    border-radius: 80px;
+    color: white;
+    height: 80px;
+    font-weight: bold;
+    width: 80px;
+    display: table;
+    margin: 20px auto;
+}
+.circle span{
+    display: table-cell;
+    color: white;
+    vertical-align: middle;
+    font-size: 30px;
+}

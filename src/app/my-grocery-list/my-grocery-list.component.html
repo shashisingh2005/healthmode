@@ -1,0 +1,45 @@
+<div class="container-fluid">
+  <form>
+    <div class="m-3 row">
+      <div class="col-9 align-item-center">
+        <input class="form-control" [formControl]="searchitem" type="search" placeholder="Search" aria-label="Search">
+      </div>
+      <div class="col-3"><button class="btn btn-outline-success" type="submit" (click)="searchfilter()">Search</button>
+      </div>
+    </div>
+  </form>
+
+  <div class="row mb-3 border-bottom pb-3" *ngFor="let Grocery of GroceryList">
+    <div class="col-3">
+      <img src={{Grocery.img}} class="h-10px w-100 d-inline-blocks" alt="{{Grocery.name}}" />
+    </div>
+    <div class="col-9">
+      <div class="row">
+        <div class="col-12">
+          <h3><a routerLink="/itemvalue/{{Grocery.id}}" class="text-green">{{Grocery.desc}} </a></h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          {{Grocery.price}} <s class="small text-muted">$230,00</s>
+        </div>
+        <div class="col-3">
+          <input type="text" class="form-control" placeholder="1">
+        </div>
+        <div class="col-5">
+          <h4>{{Grocery.price}}</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <h5>{{Grocery.name}} | In Stock</h5>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

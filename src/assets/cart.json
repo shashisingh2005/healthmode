@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Honey",
+        "desc": "Great Value Clover Raw Honey, 32 oz",
+        "img": "assets/image/honey.jpeg",
+        "price": "$12.88"
+    },
+    {
+        "name": "Olive oil",
+        "desc": "Bertolli Extra-Virgin Olive Oil, Original, 16.9 fl oz",
+        "img": "assets/image/oliveoil.jpeg",
+        "price": "$10.00"
+    },
+    {
+        "name": "Pink salt",
+        "desc": "Morton Himalayan Pink Salt, Coarse for Grilling, Seasoning",
+        "img": "assets/image/psalt.jpeg",
+        "price": "$10.00"
+    }
+]

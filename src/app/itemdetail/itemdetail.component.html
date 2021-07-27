@@ -1,0 +1,54 @@
+&nbsp;<div class="container-fluid">
+
+  <div class="row mb-3 border-bottom pb-3">
+    <div class="col-3">
+      <img src={{grocery.img}} class="h-10px w-100 d-inline-blocks" alt="{{grocery.name}}" />
+    </div>
+    <div class="col-9">
+      <div class="row">
+        <div class="col-12">
+          <h3><a routerLink="/itemvalue/{{grocery.id}}" class="text-green">{{grocery.desc}} </a></h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          {{grocery.price}} <s class="small text-muted">$230,00</s>
+        </div>
+        <div class="col-3">
+          <input type="text" class="form-control" placeholder="1">
+        </div>
+        <div class="col-5">
+          <h4>{{grocery.price}}</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <h5>{{grocery.name}} | In Stock</h5>
+        </div>
+      </div>
+      <div id="benefitlists" class="row" *ngIf="healthmode">
+        <div class="col-12">
+          <h3>Health Benefits:</h3>
+          <div *ngFor="let benefits of grocery.benefits">
+            <ul class="list-group">
+              <li>{{benefits}}</li>
+            </ul>
+          </div>
+          <div>
+            <ul class="list-group">
+              <li *ngIf="healthcondition" class="text-green">It lowers the blood pressures.</li>
+            </ul>
+          </div>
+
+          </div>
+        </div>&nbsp;
+        <div class="row">
+          <div *ngIf="addedtoCartmsg" class="mb-3"><b>Your item added to the cart</b></div>
+          <div class="m-t-sm">
+            <button type="button" class="btn btn-outline-success bg text-white" (click)="myfunction()">Add to cart</button>
+          </div>
+        </div>
+      
+    </div>
+  </div>
+</div>

@@ -1,0 +1,17 @@
+.btn-primary{
+    background-color: #42a736;
+    outline: none;
+    border: 0px;
+     box-shadow: none;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active{
+    background-color: #42a736;
+    outline: none !important;
+    border: none !important;
+     box-shadow: none;
+}
+
+.valid-feedback{
+   color: #2acc80;
+}

@@ -1,0 +1,5 @@
+<div class="form-check form-switch float-end" style="padding-top:5px;" >
+    <input class="form-check-input float-sm-right" *ngIf="healthmodestorage" checked="checked" type="checkbox" id="flexSwitchCheckDefault" value="no" (change)="switchmode($event)">
+    <input class="form-check-input float-sm-right" *ngIf="!healthmodestorage" type="checkbox" id="flexSwitchCheckDefault" value="no" (change)="switchmode($event)">
+    <label class="form-check-label " for="flexSwitchCheckDefault" style="color: white;"><h6>HealthMode</h6></label>&nbsp;&nbsp;
+</div>
