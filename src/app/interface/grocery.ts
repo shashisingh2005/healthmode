@@ -7,6 +7,7 @@ export interface grocery{
     desc:string;
     img:string;
     price:string;
+    originalprice:string;
     cat:string;
     
 }

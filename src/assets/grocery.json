@@ -6,6 +6,7 @@
         "desc": "Great Value Pure Granulated Sugar, 10 lb",
         "img": "assets/image/sugar.jpeg",
         "price": "$23.00",
+        "originalprice":"$27.00",
         "cat": "sweetener",
         "benefits": [
             "Sugar Can Provide an Immediate Burst of Energy",
@@ -22,6 +23,7 @@
         "desc": "Jiva Organics Jaggery Powder, 400 gams",
         "img": "assets/image/jaggery.jpeg",
         "price": "$10.98",
+        "originalprice":"$12.00",
         "cat": "sweetener",
         "benefits": [
             "Cleanses the whole body",
@@ -37,7 +39,8 @@
         "type": "1",
         "desc": "Great Value Clover Raw Honey, 32 oz",
         "img": "assets/image/honey.jpeg",
-        "price": "$12.88",
+        "price": "$12.00",
+        "originalprice":"$14.00",
         "cat": "sweetener",
         "benefits": [
             "Honey Contains Nutrients",
@@ -54,6 +57,7 @@
         "desc": "Maple Grove Farms® 100% Pure Maple Syrup 12.5 fl. oz. Bottle",
         "img": "assets/image/maple.jpeg",
         "price": "$13.43",
+        "originalprice":"$15.00",
         "cat": "sweetener",
         "benefits": [
             "Contains Numerous Antioxidants",
@@ -71,6 +75,7 @@
         "desc": "Great Value Organic Unrefined Virgin Coconut Oil, 14 fl oz",
         "img": "assets/image/coconutoil.jpeg",
         "price": "$4.95",
+        "originalprice":"$6.00",
         "cat": "oil",
         "benefits": [
             "Contains healthy fatty acids",
@@ -90,6 +95,7 @@
         "desc": "Bertolli Extra-Virgin Olive Oil, Original, 16.9 fl oz",
         "img": "assets/image/oliveoil.jpeg",
         "price": "$10.00",
+        "originalprice":"$11.00",
         "cat": "oil",
         "benefits": [
             "Olive Oil Is Rich in Healthy Monounsaturated Fats",
@@ -107,6 +113,7 @@
         "desc": "Great Value Avocado Oil, 25.5 fl oz",
         "img": "assets/image/Avacado.jpeg",
         "price": "$7.85",
+        "originalprice":"$8.50",
         "cat": "oil",
         "benefits": [
             "Rich in Oleic Acid, a Very Healthy Fat",
@@ -125,6 +132,7 @@
         "desc": "Mazola Corn Oil, 40 Fl Oz",
         "img": "assets/image/corn.jpeg",
         "price": "$5.66",
+        "originalprice":"$6.40",
         "cat": "oil",
         "benefits": [
             "Balance Cholesterol Levels",
@@ -141,6 +149,7 @@
         "desc": " Great Value Plain Salt, 26 oz",
         "img": "assets/image/salt.jpeg",
         "price": "$0.40",
+        "originalprice":"$0.60",
         "cat": "salt",
         "benefits": [
             "Helps Thyroid Function Properly. Your thyroid plays an important role in metabolism",
@@ -156,6 +165,7 @@
         "desc": "Morton Salt, Iodized, 26 Ounce",
         "img": "assets/image/isalt.jpeg",
         "price": "$13.00",
+        "originalprice":"$14.00",
         "cat": "salt",
         "benefits": [
             "Iodized salt helps create the hormones that regulate heart rate and blood pressure",
@@ -171,6 +181,7 @@
         "desc": "Morton Himalayan Pink Salt, Coarse for Grilling, Seasoning",
         "img": "assets/image/psalt.jpeg",
         "price": "$10.00",
+        "originalprice":"$11.00",
         "cat": "salt",
         "benefits": [
             "Improve respiratory diseases",
@@ -187,6 +198,7 @@
         "desc": "Pure Flaky Sea Salt",
         "img": "assets/image/ssalt.png",
         "price": "$7.12",
+        "originalprice":"$8.00",
         "cat": "salt",
         "benefits": [
             "Keeps you hydrated",
