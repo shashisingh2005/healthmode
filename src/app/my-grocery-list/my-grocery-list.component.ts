@@ -26,7 +26,7 @@ export class MyGroceryListComponent implements OnInit {
   }
   
   switchmode(event: any) {
-    let searchterm = this.searchitem.value.trim();
+    let searchterm = this.searchitem.value.trim().toLowerCase();
     if (event.checked){
       this.GroceryList.sort(this.compare);
     } else {
@@ -41,7 +41,7 @@ export class MyGroceryListComponent implements OnInit {
   }
 
   searchfilter(){
-    let searchterm = this.searchitem.value.trim();
+    let searchterm = this.searchitem.value.trim().toLowerCase();
     if(searchterm){
       this.GroceryList = grocerylist.filter(function (item) {
         return item.cat == searchterm; 
