@@ -49,8 +49,8 @@
     <div class="row" *ngIf="healthmode">
         <div ><button class="col-12 custombtn health d-grid gap-2 " (click)="showhideUtility()">Redeem 50 health coins</button> </div>
     </div>
-    
-    <app-newcomp *ngIf="visible"></app-newcomp> 
+
+    <app-newcomp *ngIf="visible && healthmode"></app-newcomp> 
     <div class="row mt-3">
         <button class="col-md-12 custombtn paynow mb-5">Pay Now</button>
     </div>
