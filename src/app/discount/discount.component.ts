@@ -8,9 +8,8 @@ import { HealthmodeService } from '../healthmode.service';
   styleUrls: ['./discount.component.scss']
 })
 export class DiscountComponent implements OnInit {
-  healthmode:Boolean=false;
+  healthmode:boolean=false;
   visible:boolean = false;
-  payNowClicked:boolean = false;
   cartList:any = cartlist;
   showhideUtility(){
     this.visible = this.visible?false:true;
@@ -31,9 +30,5 @@ export class DiscountComponent implements OnInit {
     else{
       this.healthmode=false;
     }
-  }
-
-  paynow () {
-    this.payNowClicked = true;
   }
 }
